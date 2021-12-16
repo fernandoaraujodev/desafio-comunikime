@@ -1,0 +1,145 @@
+.card-content{
+    margin: 0 0 35px 35px;
+    width: 300px;
+    border-radius: 5px;
+    border: 0.1em solid rgb(189, 186, 186);
+    background-color: #fff;
+    padding: 10px 2px;
+    display: grid;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.card-content:hover{
+    transform: translateY(-2px);
+    transition: 0.4s ease;
+    box-shadow: 0px 14px 80px rgb(38, 41, 53, 0.2);
+}
+
+.card-content img{
+    border-radius: 5px;
+    width: 275px;
+}
+
+.card-description{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-description h4{
+    color: rgb(33, 38, 61);
+    font-family: Poppins,Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.card-description h2{
+    color: rgb(0, 0, 0);
+    font-family: Poppins,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.table{
+    margin-top: 100px;
+}
+
+.price{
+    display: grid;
+}
+
+.price h4{
+    justify-self: end;
+}
+
+.price h4{
+    align-items: center;
+}
+
+.buy{
+    display: flex;
+    justify-content: space-between;
+}
+
+.buy h4{
+    color: rgb(63, 63, 63);
+    font-family: Poppins,Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.buy h2{
+    color: rgb(0, 0, 0);
+    font-family: Poppins,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.quantity-button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.quantity-button h2{
+    margin-top: 8px;
+}
+
+.quantity-button button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 6px;
+    border: 0.1em solid rgb(231, 231, 231);
+    background-color: #0888BF;
+    justify-self: end;
+    color: #fff;
+}
+
+.buyButtonDisabled{
+    margin-top: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85px;
+    height: 35px;
+    border-radius: 6px;
+    border: 0.1em solid rgb(231, 231, 231);
+    background-color: rgb(109, 109, 109);
+    justify-self: end;
+    transition: all .3s;
+}
+
+.buyButton{
+    margin-top: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85px;
+    height: 35px;
+    border-radius: 6px;
+    border: 0.1em solid rgb(231, 231, 231);
+    background-color: rgb(31, 165, 31);
+    justify-self: end;
+    transition: all .3s;
+}
+
+.buyButton:hover{
+    background: #026925 !important;
+}
+
+.buyButtonDisabled p,
+.buyButton p{
+    margin-top: 14px;
+    color: rgb(255, 255, 255);
+    font-family: Poppins,Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
